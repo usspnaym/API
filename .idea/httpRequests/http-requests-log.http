@@ -1,0 +1,609 @@
+PATCH http://localhost:8000/api/categories/1
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 1|JAcbxgrgjWQpSRomqzIRfgzxMWwGh1vSq8gmvca6
+
+{
+  "name": "Cat Super"
+}
+
+<> 2021-07-13T183616.200.html
+
+###
+
+PATCH http://localhost:8000/api/categories/1
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 1|JAcbxgrgjWQpSRomqzIRfgzxMWwGh1vSq8gmvca6
+
+{
+  "name": "Cat Super"
+}
+
+<> 2021-07-13T183613.200.html
+
+###
+
+POST http://localhost:8000/api/categories
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 1|JAcbxgrgjWQpSRomqzIRfgzxMWwGh1vSq8gmvca6
+
+{
+  "name": "Cat 1"
+}
+
+<> 2021-07-13T183608.201.json
+
+###
+
+GET http://localhost:8000/api/categories
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 1|JAcbxgrgjWQpSRomqzIRfgzxMWwGh1vSq8gmvca6
+
+<> 2021-07-13T183607.200.json
+
+###
+
+POST http://localhost:8000/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "account": "user",
+  "password": "password"
+}
+
+<> 2021-07-13T183604.200.json
+
+###
+
+POST http://localhost:8000/api/auth/register
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Test User",
+  "account": "user",
+  "email": "email@example.com",
+  "password": "password"
+}
+
+<> 2021-07-13T183602.200.json
+
+###
+
+POST http://localhost:8000/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "account": "user",
+  "password": "password"
+}
+
+<> 2021-07-13T183558.403.json
+
+###
+
+POST http://localhost:8000/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "account": "user",
+  "password": "password"
+}
+
+<> 2021-07-13T183554.403.json
+
+###
+
+POST http://localhost:8000/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "account": "user",
+  "password": "password"
+}
+
+<> 2021-07-13T183259.500.json
+
+###
+
+POST http://localhost:8000/api/categories
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 3|pW92g4gVW25ESqikx84Gu15OVnZ9TwAQZsJLNjeE
+
+{
+  "name": "Cat 1"
+}
+
+<> 2021-07-13T183256.200.json
+
+###
+
+GET http://localhost:8000/api/categories
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 3|pW92g4gVW25ESqikx84Gu15OVnZ9TwAQZsJLNjeE
+
+<> 2021-07-13T183254.200.json
+
+###
+
+GET http://localhost:8000/api/categories
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 3|pW92g4gVW25ESqikx84Gu15OVnZ9TwAQZsJLNjeE
+
+<> 2021-07-13T182825.200.json
+
+###
+
+GET http://localhost:8000/api/categories
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 3|pW92g4gVW25ESqikx84Gu15OVnZ9TwAQZsJLNjeE
+
+<> 2021-07-13T182739.500.json
+
+###
+
+GET http://localhost:8000/api/categorys
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 3|pW92g4gVW25ESqikx84Gu15OVnZ9TwAQZsJLNjeE
+
+<> 2021-07-13T182720.500.json
+
+###
+
+GET http://localhost:8000/api/category
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 3|pW92g4gVW25ESqikx84Gu15OVnZ9TwAQZsJLNjeE
+
+<> 2021-07-13T182709.404.json
+
+###
+
+GET http://localhost:8000/api/category
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 3|pW92g4gVW25ESqikx84Gu15OVnZ9TwAQZsJLNjeE
+
+<> 2021-07-13T182657.500.json
+
+###
+
+GET http://localhost:8000/api/categories
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 3|pW92g4gVW25ESqikx84Gu15OVnZ9TwAQZsJLNjeE
+
+<> 2021-07-13T182639.404.json
+
+###
+
+GET http://localhost:8000/api/categories
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 3|pW92g4gVW25ESqikx84Gu15OVnZ9TwAQZsJLNjeE
+
+<> 2021-07-13T182536.500.json
+
+###
+
+GET http://localhost:8000/api/categories
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 3|pW92g4gVW25ESqikx84Gu15OVnZ9TwAQZsJLNjeE
+
+<> 2021-07-13T182519.200.json
+
+###
+
+GET http://localhost:8000/api/categories
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 3|pW92g4gVW25ESqikx84Gu15OVnZ9TwAQZsJLNjeE
+
+<> 2021-07-13T182511.200.json
+
+###
+
+GET http://localhost:8000/api/posts
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 3|pW92g4gVW25ESqikx84Gu15OVnZ9TwAQZsJLNjeE
+
+<> 2021-07-13T182245.200.json
+
+###
+
+GET http://localhost:8000/api/posts/3
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 3|pW92g4gVW25ESqikx84Gu15OVnZ9TwAQZsJLNjeE
+
+<> 2021-07-13T182217.200.json
+
+###
+
+POST http://localhost:8000/api/posts
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 3|pW92g4gVW25ESqikx84Gu15OVnZ9TwAQZsJLNjeE
+
+{
+  "name": "Ha",
+  "content": "Haha"
+}
+
+<> 2021-07-13T182215.201.json
+
+###
+
+GET http://localhost:8000/api/posts/2
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 3|pW92g4gVW25ESqikx84Gu15OVnZ9TwAQZsJLNjeE
+
+<> 2021-07-13T182205.404.json
+
+###
+
+DELETE http://localhost:8000/api/posts/2
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 3|pW92g4gVW25ESqikx84Gu15OVnZ9TwAQZsJLNjeE
+
+{
+  "id": 2
+}
+
+<> 2021-07-13T182123.200.json
+
+###
+
+POST http://localhost:8000/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "account": "user",
+  "password": "password"
+}
+
+<> 2021-07-13T182122.200.json
+
+###
+
+DELETE http://localhost:8000/api/posts/2
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer undefined
+
+{
+  "id": 2
+}
+
+<> 2021-07-13T182118.200.json
+
+###
+
+PATCH http://localhost:8000/api/posts/2
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer undefined
+
+{
+  "name": "Ha",
+  "content": "abc"
+}
+
+<> 2021-07-13T182046.200.json
+
+###
+
+PATCH http://localhost:8000/api/posts/2
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 2|MU2wEtYtEfBAyAclO2FgtL7J4Vn3y74y2hb7vCDE
+
+{
+  "name": "Ha",
+  "content": "abc"
+}
+
+<> 2021-07-13T182041.200.json
+
+###
+
+POST http://localhost:8000/api/posts
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 2|MU2wEtYtEfBAyAclO2FgtL7J4Vn3y74y2hb7vCDE
+
+{
+  "name": "Ha",
+  "content": "Haha"
+}
+
+<> 2021-07-13T182035.201.json
+
+###
+
+POST http://localhost:8000/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "account": "user",
+  "password": "password"
+}
+
+<> 2021-07-13T182032.200.json
+
+###
+
+POST http://localhost:8000/api/posts
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer undefined
+
+{
+  "name": "Ha",
+  "content": "Haha"
+}
+
+<> 2021-07-13T182028.200.json
+
+###
+
+POST http://localhost:8000/api/posts
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 1|6ZjY0YvcSz33TcLmUUAHil6t6cjNtslK1dheb5u2
+
+{
+  "name": "Ha",
+  "content": "Haha"
+}
+
+<> 2021-07-13T181741.201.json
+
+###
+
+POST http://localhost:8000/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "account": "user",
+  "password": "password"
+}
+
+<> 2021-07-13T181741.200.json
+
+###
+
+POST http://localhost:8000/api/auth/register
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Test User",
+  "account": "user",
+  "email": "email@example.com",
+  "password": "password"
+}
+
+<> 2021-07-13T181738.200.json
+
+###
+
+POST http://localhost:8000/api/posts
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 1|i3Z9O4pW5q929QFaCbHCbTLKMNg7u78OpZJKLcdJ
+
+{
+  "name": "Ha",
+  "content": "Haha"
+}
+
+<> 2021-07-13T181656.500.json
+
+###
+
+POST http://localhost:8000/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "account": "user",
+  "password": "password"
+}
+
+<> 2021-07-13T181655.200.json
+
+###
+
+POST http://localhost:8000/api/auth/register
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Test User",
+  "account": "user",
+  "email": "email@example.com",
+  "password": "password"
+}
+
+<> 2021-07-13T181653.200.json
+
+###
+
+POST http://localhost:8000/api/posts
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 1|BKYe01uHV7OPt30efEFiOGiRWrHo82EAL4EZFJFo
+
+{
+  "name": "Ha",
+  "content": "Haha"
+}
+
+<> 2021-07-13T181536.500.json
+
+###
+
+POST http://localhost:8000/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "account": "user",
+  "password": "password"
+}
+
+<> 2021-07-13T181536.200.json
+
+###
+
+POST http://localhost:8000/api/auth/register
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Test User",
+  "account": "user",
+  "email": "email@example.com",
+  "password": "password"
+}
+
+<> 2021-07-13T181531.200.json
+
+###
+
+POST http://localhost:8000/api/posts
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer undefined
+
+{
+  "name": "Ha",
+  "content": "Haha"
+}
+
+<> 2021-07-13T181431-1.200.json
+
+###
+
+POST http://localhost:8000/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "account": "user",
+  "password": "password"
+}
+
+<> 2021-07-13T181431.200.json
+
+###
+
+POST http://localhost:8000/api/posts
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 17|bYzbMpsJ9y2B7YX9fu7Ob78AzR7b6cmCve6ZsjKA
+
+{
+  "name": "Ha",
+  "content": "Haha"
+}
+
+<> 2021-07-13T181329.500.json
+
+###
+
+POST http://localhost:8000/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "account": "user",
+  "password": "password"
+}
+
+<> 2021-07-13T181329.200.json
+
+###
+
+POST http://localhost:8000/api/posts
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 16|c0ZBcjfPvAuPusM9N70iHzfz0gwJKbe4YAddbnvA
+
+{
+  "name": "Ha",
+  "content": "Haha"
+}
+
+<> 2021-07-13T181238.500.json
+
+###
+
+POST http://localhost:8000/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "account": "user",
+  "password": "password"
+}
+
+<> 2021-07-13T181238.200.json
+
+###
+
+POST http://localhost:8000/api/posts
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Ha",
+  "content": "Haha"
+}
+
+<> 2021-07-13T181217-1.200.json
+
+###
+
+POST http://localhost:8000/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "account": "user",
+  "password": "password"
+}
+
+<> 2021-07-13T181217.200.json
+
+###
+
+GET http://localhost:8000/api/auth/me
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 14|sD2XXC5w5jTvd73QH6aXaEQptbp8tI1QGdUOdQTR
+
+<> 2021-07-13T145857.200.json
+
+###
+

@@ -1,0 +1,55 @@
+# Login
+POST http://{{host}}/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "account": "user",
+  "password": "password"
+}
+
+> {%
+    client.global.set('access_token', response.body.access_token)
+%}
+
+###
+# List
+GET http://{{host}}/api/categories
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer {{access_token}}
+
+###
+# 新增
+POST http://{{host}}/api/categories
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer {{access_token}}
+
+{
+  "name": "Cat 1"
+}
+
+> {%
+    client.global.set('cat_id', response.body.id)
+%}
+
+###
+# 修改
+PATCH http://{{host}}/api/categories/{{cat_id}}
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer {{access_token}}
+
+{
+  "name": "Cat Super"
+}
+
+###
+# 顯示
+GET http://{{host}}/api/categories/{{cat_id}}
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer {{access_token}}
+
+###
