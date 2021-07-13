@@ -1,0 +1,67 @@
+# Login
+POST http://{{host}}/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "account": "user",
+  "password": "password"
+}
+
+> {%
+    client.global.set('access_token', response.body.access_token)
+%}
+
+###
+# List
+GET http://{{host}}/api/posts
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer {{access_token}}
+
+###
+# 新增
+POST http://{{host}}/api/posts
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer {{access_token}}
+
+{
+  "name": "Ha",
+  "content": "Haha"
+}
+
+> {%
+    client.global.set('post_id', response.body.id)
+%}
+
+###
+# 修改
+PATCH http://{{host}}/api/posts/{{post_id}}
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer {{access_token}}
+
+{
+  "name": "Ha",
+  "content": "abc"
+}
+
+###
+# 顯示
+GET http://{{host}}/api/posts/{{post_id}}
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer {{access_token}}
+
+###
+# 修改
+DELETE http://{{host}}/api/posts/{{post_id}}
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer {{access_token}}
+
+{
+  "id": 2
+}
+
