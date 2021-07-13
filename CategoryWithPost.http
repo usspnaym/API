@@ -1,0 +1,41 @@
+# Login
+POST http://{{host}}/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "account": "user",
+  "password": "password"
+}
+
+> {%
+    client.global.set('access_token', response.body.access_token)
+%}
+
+###
+# 列表
+GET http://{{host}}/api/categories
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer {{access_token}}
+
+> {%
+    client.global.set('cat_id', response.body[0].id)
+%}
+
+###
+# 新增文章
+POST http://{{host}}/api/posts
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer {{access_token}}
+
+{
+  "name": "Ha",
+  "content": "Haha",
+  "categories": [{{cat_id}}]
+}
+
+> {%
+    client.global.set('post_id', response.body.id)
+%}

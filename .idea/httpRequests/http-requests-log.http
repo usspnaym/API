@@ -1,3 +1,127 @@
+POST http://localhost:8000/api/posts
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 5|go4fJz3EtgHpzJVoKcNehvxxyPvQ4EbAugtnUH5j
+
+{
+  "name": "Ha",
+  "content": "Haha",
+  "categories": [1]
+}
+
+<> 2021-07-13T190530.201.json
+
+###
+
+GET http://localhost:8000/api/categories
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 5|go4fJz3EtgHpzJVoKcNehvxxyPvQ4EbAugtnUH5j
+
+<> 2021-07-13T190529-1.200.json
+
+###
+
+POST http://localhost:8000/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "account": "user",
+  "password": "password"
+}
+
+<> 2021-07-13T190529.200.json
+
+###
+
+POST http://localhost:8000/api/posts
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 4|s1kxoijParp03VVqIH0shiJmxa3XJfnLaLhKsgI8
+
+{
+  "name": "Ha",
+  "content": "Haha",
+  "categories": [1]
+}
+
+<> 2021-07-13T190456.500.json
+
+###
+
+GET http://localhost:8000/api/categories
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 4|s1kxoijParp03VVqIH0shiJmxa3XJfnLaLhKsgI8
+
+<> 2021-07-13T190456-1.200.json
+
+###
+
+POST http://localhost:8000/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "account": "user",
+  "password": "password"
+}
+
+<> 2021-07-13T190456.200.json
+
+###
+
+POST http://localhost:8000/api/posts
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 3|JgsD6C2eh6ItkA9CYciMCG4ZsjWymBtX46qJrLDS
+
+{
+  "name": "Ha",
+  "content": "Haha",
+  "categories": [1]
+}
+
+<> 2021-07-13T190351-1.500.json
+
+###
+
+GET http://localhost:8000/api/categories
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 3|JgsD6C2eh6ItkA9CYciMCG4ZsjWymBtX46qJrLDS
+
+<> 2021-07-13T190351.500.json
+
+###
+
+POST http://localhost:8000/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "account": "user",
+  "password": "password"
+}
+
+<> 2021-07-13T190351.200.json
+
+###
+
+POST http://localhost:8000/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "account": "user",
+  "password": "password"
+}
+
+<> 2021-07-13T185939.200.json
+
+###
+
 PATCH http://localhost:8000/api/categories/1
 Content-Type: application/json
 Accept: application/json
@@ -473,137 +597,6 @@ Accept: application/json
 }
 
 <> 2021-07-13T181536.200.json
-
-###
-
-POST http://localhost:8000/api/auth/register
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "Test User",
-  "account": "user",
-  "email": "email@example.com",
-  "password": "password"
-}
-
-<> 2021-07-13T181531.200.json
-
-###
-
-POST http://localhost:8000/api/posts
-Content-Type: application/json
-Accept: application/json
-Authorization: Bearer undefined
-
-{
-  "name": "Ha",
-  "content": "Haha"
-}
-
-<> 2021-07-13T181431-1.200.json
-
-###
-
-POST http://localhost:8000/api/auth/login
-Content-Type: application/json
-Accept: application/json
-
-{
-  "account": "user",
-  "password": "password"
-}
-
-<> 2021-07-13T181431.200.json
-
-###
-
-POST http://localhost:8000/api/posts
-Content-Type: application/json
-Accept: application/json
-Authorization: Bearer 17|bYzbMpsJ9y2B7YX9fu7Ob78AzR7b6cmCve6ZsjKA
-
-{
-  "name": "Ha",
-  "content": "Haha"
-}
-
-<> 2021-07-13T181329.500.json
-
-###
-
-POST http://localhost:8000/api/auth/login
-Content-Type: application/json
-Accept: application/json
-
-{
-  "account": "user",
-  "password": "password"
-}
-
-<> 2021-07-13T181329.200.json
-
-###
-
-POST http://localhost:8000/api/posts
-Content-Type: application/json
-Accept: application/json
-Authorization: Bearer 16|c0ZBcjfPvAuPusM9N70iHzfz0gwJKbe4YAddbnvA
-
-{
-  "name": "Ha",
-  "content": "Haha"
-}
-
-<> 2021-07-13T181238.500.json
-
-###
-
-POST http://localhost:8000/api/auth/login
-Content-Type: application/json
-Accept: application/json
-
-{
-  "account": "user",
-  "password": "password"
-}
-
-<> 2021-07-13T181238.200.json
-
-###
-
-POST http://localhost:8000/api/posts
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "Ha",
-  "content": "Haha"
-}
-
-<> 2021-07-13T181217-1.200.json
-
-###
-
-POST http://localhost:8000/api/auth/login
-Content-Type: application/json
-Accept: application/json
-
-{
-  "account": "user",
-  "password": "password"
-}
-
-<> 2021-07-13T181217.200.json
-
-###
-
-GET http://localhost:8000/api/auth/me
-Content-Type: application/json
-Accept: application/json
-Authorization: Bearer 14|sD2XXC5w5jTvd73QH6aXaEQptbp8tI1QGdUOdQTR
-
-<> 2021-07-13T145857.200.json
 
 ###
 
